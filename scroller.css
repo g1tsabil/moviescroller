@@ -1,0 +1,123 @@
+.header
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+    color: rgb(255, 255, 255);
+    background-color: rgba(125, 102, 208, 0.571);
+    text-align: center;
+    font-size: 60px;
+}
+
+.leftpanel
+{
+    position: relative; 
+    width: 100px;
+    height: 200px;
+}
+
+.leftbtn
+{
+    margin: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.leftpos
+{
+    position:absolute;
+    left: 0px;
+    top: 40%;
+}
+
+.internal
+{
+    position: relative;
+    width: 396px;
+    height: 700px;
+    display: inline-block;
+}
+
+.center
+{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 1604px;
+    height: 700px;
+    border: 1px solid black;
+    margin: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.rightpanel
+{
+    position: relative; 
+    width: 100px;
+    height: 200px;
+}
+
+.rightbtn
+{
+    margin: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.rightpos
+{
+    position:absolute;
+    right: 0px;
+    top:40%;
+}
+
+body
+{
+    background-color: #3b3c3e !important;
+}
+
+.btn-xl
+{
+    font-size:60px !important;
+    text-align: center !important;
+    padding-bottom: 15px !important;
+}
+
+img
+{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: none;
+}
+
+.pointer
+{
+    cursor: pointer;
+}
+
+.overlay 
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #898989;
+}
+
+.overlay:hover
+{
+    opacity: .5;
+}
